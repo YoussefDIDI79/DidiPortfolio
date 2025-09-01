@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/components/ui/language-provider";
 import { getTranslation } from "@/lib/i18n";
 import { ChevronDown } from "lucide-react";
+import profileImage from "@assets/generated_images/Professional_headshot_portrait_6bfa5e4f.png";
 
 export function Hero() {
   const { language } = useLanguage();
@@ -21,7 +22,7 @@ export function Hero() {
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="animate-fade-in">
           <img
-            src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400"
+            src={profileImage}
             alt="Youssef Didi - Professional headshot"
             className="w-32 h-32 sm:w-40 sm:h-40 rounded-full mx-auto mb-8 border-4 border-white/20 shadow-2xl object-cover"
             data-testid="img-hero-avatar"

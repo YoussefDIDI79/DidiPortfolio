@@ -1,5 +1,6 @@
 import { createContext, useContext, useEffect, useState, ReactNode } from "react";
-import { Language, getDirection } from "@/lib/i18n";
+import { getDirection } from "@/lib/i18n";
+import { Language } from "@/lib/translations";
 
 type LanguageProviderProps = {
   children: ReactNode;

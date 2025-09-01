@@ -2,6 +2,12 @@ import { useLanguage } from "@/components/ui/language-provider";
 import { getTranslation } from "@/lib/i18n";
 import { Button } from "@/components/ui/button";
 import { Github, ExternalLink } from "lucide-react";
+import ecommerceImage from "@assets/generated_images/E-commerce_analytics_dashboard_f80b55e8.png";
+import securityImage from "@assets/generated_images/Network_security_monitor_interface_8b51d29f.png";
+import visualizationImage from "@assets/generated_images/Data_visualization_platform_df9e9e06.png";
+import taskAppImage from "@assets/generated_images/Task_management_mobile_app_f163fe08.png";
+import blockchainImage from "@assets/generated_images/Blockchain_voting_system_5f67a880.png";
+import iotImage from "@assets/generated_images/IoT_smart_home_system_721f394b.png";
 
 export function Projects() {
   const { language } = useLanguage();
@@ -12,7 +18,7 @@ export function Projects() {
     {
       titleKey: "projects.ecommerce",
       descKey: "projects.ecommerce.desc",
-      image: "https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+      image: ecommerceImage,
       skills: ["React", "D3.js", "Node.js"],
       github: "#",
       demo: "#",
@@ -20,7 +26,7 @@ export function Projects() {
     {
       titleKey: "projects.security",
       descKey: "projects.security.desc",
-      image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+      image: securityImage,
       skills: ["Python", "TensorFlow", "Flask"],
       github: "#",
       demo: "#",
@@ -28,7 +34,7 @@ export function Projects() {
     {
       titleKey: "projects.visualization",
       descKey: "projects.visualization.desc",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+      image: visualizationImage,
       skills: ["Vue.js", "Chart.js", "MongoDB"],
       github: "#",
       demo: "#",
@@ -36,7 +42,7 @@ export function Projects() {
     {
       titleKey: "projects.taskApp",
       descKey: "projects.taskApp.desc",
-      image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+      image: taskAppImage,
       skills: ["React Native", "Firebase", "Redux"],
       github: "#",
       demo: "#",
@@ -44,7 +50,7 @@ export function Projects() {
     {
       titleKey: "projects.blockchain",
       descKey: "projects.blockchain.desc",
-      image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+      image: blockchainImage,
       skills: ["Solidity", "Web3.js", "Ethereum"],
       github: "#",
       demo: "#",
@@ -52,7 +58,7 @@ export function Projects() {
     {
       titleKey: "projects.iot",
       descKey: "projects.iot.desc",
-      image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+      image: iotImage,
       skills: ["Arduino", "MQTT", "Flutter"],
       github: "#",
       demo: "#",

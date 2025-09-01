@@ -19,6 +19,7 @@ export class MemStorage implements IStorage {
       ...insertContact,
       id,
       createdAt: new Date(),
+      language: insertContact.language || "en",
     };
     this.contacts.set(id, contact);
     return contact;
